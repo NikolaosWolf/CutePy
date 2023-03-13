@@ -1,4 +1,4 @@
-class Token:
+class LexToken:
     def __init__(self, recognized_string, family, line):
         self.recognized_string = recognized_string
         self.family = family
